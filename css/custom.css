@@ -1,0 +1,45 @@
+.home {
+	display: none;
+}
+.copy p {
+	position: fixed;
+	bottom: 0;
+	padding: 0;
+	margin: 0;
+	color: rgba(255,255,255,0.2);
+	font-family: 'Open Sans', serif;
+}
+.phd {
+	text-transform: none;
+	font-size: 2.5rem;
+	color: #484d53;
+}
+.rpheading {
+	color: #343a40;
+}
+.article li {
+	margin:0 0 20px 0;
+}
+.contact {
+	line-height: 1.9rem;
+	font-size: 1.1rem;
+}
+.contact span {
+	color: #343a40;
+}
+@media (min-width: 992px) {
+	.phone {
+	color: #868e96;
+	text-decoration: none;
+	pointer-events: none;
+	cursor: default;
+}
+.phone:hover, .phone:focus, .phone:active {
+	color: #868e96;
+	text-decoration: none;
+}
+@media (max-width: 992px) {
+	.home {
+		display: inline;
+	}
+}
