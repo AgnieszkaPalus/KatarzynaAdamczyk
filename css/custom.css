@@ -27,17 +27,19 @@
 .contact span {
 	color: #343a40;
 }
+
 @media (min-width: 992px) {
 	.phone {
-	color: #868e96;
-	text-decoration: none;
-	pointer-events: none;
-	cursor: default;
+		color: #868e96;
+		text-decoration: none;
+		pointer-events: none;
+		cursor: default;
 }
-.phone:hover, .phone:focus, .phone:active {
-	color: #868e96;
-	text-decoration: none;
+	.phone:hover, .phone:focus, .phone:active {
+		color: #868e96;
+		text-decoration: none;
 }
+
 @media (max-width: 992px) {
 	.home {
 		display: inline;
